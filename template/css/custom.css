@@ -1,12 +1,16 @@
-/* 
+/*
 
 1. Add your custom Css styles below
-2. Place the this code in your template: 
+2. Place the this code in your template:
 
  <link href="css/custom.css" rel="stylesheet">
 
 */
 
+
+.tabs.tabs-folder .nav-tabs .nav-link {
+  background-color: #eee;
+}
 .tabs.tabs-folder .nav-tabs .nav-link.active {
-	background-color: #fff; 
+	background-color: #fff;
 }
