@@ -11,6 +11,21 @@
 .tabs.tabs-folder .nav-tabs .nav-link {
   background-color: #eee;
 }
+
 .tabs.tabs-folder .nav-tabs .nav-link.active {
 	background-color: #fff;
+}
+
+/*.modal-body{
+    max-height: 600px;
+    overflow-y: auto;
+}*/
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
 }
